@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Weekly Report Agent
+Comment=Start the weekly report dashboard and open it on the configured report day
+Exec=/usr/bin/python3 /home/dishan/Documents/report/weekly_startup.py
+Path=/home/dishan/Documents/report
+Terminal=false
+X-GNOME-Autostart-enabled=true

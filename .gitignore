@@ -1,0 +1,12 @@
+.env
+.venv/
+.deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+data/
+credentials.json
+client_secret_*.json
+token.json
+secrets/

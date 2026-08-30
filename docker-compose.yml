@@ -1,0 +1,14 @@
+services:
+  weekly-report-agent:
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/weekly_reports.db
+      GMAIL_CREDENTIALS_FILE: /app/secrets/credentials.json
+      GMAIL_TOKEN_FILE: /app/secrets/token.json
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./secrets:/app/secrets
+    restart: unless-stopped

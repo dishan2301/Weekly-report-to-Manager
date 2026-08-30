@@ -1,0 +1,12 @@
+.git
+.agents
+.codex
+.deps
+.venv
+__pycache__
+*.pyc
+.env
+data
+secrets
+credentials.json
+token.json
